@@ -1,8 +1,16 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
-export default function MusicPlayer({ src, title }) {
-  const [isPlaying, setIsPlaying] = useState(false)
+export default function MusicPlayer({ src, title, autoPlay = true }) {
+  const [isPlaying, setIsPlaying] = useState(autoPlay)
   const audioRef = useRef(null)
+
+  useEffect(() => {
+    if (autoPlay && audioRef.current) {
+      audioRef.current.play().catch(() => {
+        // Браузер заблокировал autoplay, это норма
+      })
+    }
+  }, [autoPlay])
 
   const togglePlay = () => {
     if (audioRef.current) {
@@ -53,3 +61,4 @@ export default function MusicPlayer({ src, title }) {
     </div>
   )
 }
+
