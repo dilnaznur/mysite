@@ -26,11 +26,11 @@ export default function Gift2({ next }) {
         <PhotoCard src="/images/school3.jpeg" caption="Мектеп 3" onClick={setFullScreenImage} />
         <PhotoCard src="/images/school4.jpeg" caption="Мектеп 4" onClick={setFullScreenImage} />
         <PhotoCard src="/images/school5.jpeg" caption="Мектеп 5" onClick={setFullScreenImage} />
-        <PhotoCard src="/images/school6.jpeg" caption="Мектеп 6" onClick={setFullScreenImage} />
-        <PhotoCard src="/images/school7.jpeg" caption="Мектеп 7" onClick={setFullScreenImage} />
-        <PhotoCard src="/images/school8.jpeg" caption="Мектеп 8" onClick={setFullScreenImage} />
-        <PhotoCard src="/images/school9.jpeg" caption="Мектеп 9" onClick={setFullScreenImage} />
-        <PhotoCard src="/images/school10.jpeg" caption="Мектеп 10" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school6.jpg" caption="Мектеп 6" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school7.jpg" caption="Мектеп 7" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school8.jpg" caption="Мектеп 8" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school9.jpg" caption="Мектеп 9" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school10.jpg" caption="Мектеп 10" onClick={setFullScreenImage} />
         <PhotoCard src="/images/school11.jpeg" caption="Мектеп 11" onClick={setFullScreenImage} />
         <PhotoCard src="/images/school12.jpeg" caption="Мектеп 12" onClick={setFullScreenImage} />
         <PhotoCard src="/images/school13.jpeg" caption="Мектеп 13" onClick={setFullScreenImage} />
