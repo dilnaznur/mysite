@@ -26,6 +26,16 @@ export default function Gift2({ next }) {
         <PhotoCard src="/images/school3.jpeg" caption="Мектеп 3" onClick={setFullScreenImage} />
         <PhotoCard src="/images/school4.jpeg" caption="Мектеп 4" onClick={setFullScreenImage} />
         <PhotoCard src="/images/school5.jpeg" caption="Мектеп 5" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school6.jpeg" caption="Мектеп 6" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school7.jpeg" caption="Мектеп 7" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school8.jpeg" caption="Мектеп 8" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school9.jpeg" caption="Мектеп 9" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school10.jpeg" caption="Мектеп 10" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school11.jpeg" caption="Мектеп 11" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school12.jpeg" caption="Мектеп 12" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school13.jpeg" caption="Мектеп 13" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school14.jpeg" caption="Мектеп 14" onClick={setFullScreenImage} />
+        <PhotoCard src="/images/school15.jpeg" caption="Мектеп 15" onClick={setFullScreenImage} />
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
